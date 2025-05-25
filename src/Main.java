@@ -17,7 +17,7 @@ public class Main {
         }
     }
     
-    public static String calc(String input) throws IllegalArgumentException {
+    public static String calc(String input)  {
         char[] myArray = input.toCharArray();
         int quantityAction = 0;
         for (int i = 0; i < actions.length; i++) {
