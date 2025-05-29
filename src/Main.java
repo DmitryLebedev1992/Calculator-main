@@ -64,7 +64,7 @@ public class Main {
                 return String.valueOf(resultArabic);
         }
         
-        throw new IllegalArgumentException("Введенные данные не являются цифрами от 1 до 10");
+        throw new IllegalArgumentException("Введенные данные не являются целыми цифрами от 1 до 10");
     }
     
     public static int Result(int number1, int number2, String regexAction) {
