@@ -7,7 +7,7 @@ public class Main {
     static char[] actions = new char[]{'+', '-', '*', '/'};
     
     public static void main(String[] args) {
-        System.out.println("Введите два арабских числа от 1 до 10 и арифметический оператор:");
+        System.out.println("Введите два целых числа от 1 до 10 и арифметический оператор:");
         Scanner console = new Scanner(System.in);
         String inPut = console.nextLine();
         try {
@@ -64,7 +64,7 @@ public class Main {
                 return String.valueOf(resultArabic);
         }
         
-        throw new IllegalArgumentException("Введенные данные не являются АРАБСКИМИ цифрами от 1 до 10");
+        throw new IllegalArgumentException("Введенные данные не являются цифрами от 1 до 10");
     }
     
     public static int Result(int number1, int number2, String regexAction) {
